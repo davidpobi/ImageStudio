@@ -16,7 +16,7 @@ const brandedOutputFolder_Instagram = '../Assets/Branded_Output/Instagram/';
 const brandedOutputFolder_Covers= '../Assets/Branded_Output/Covers/';
 const qrFolder = '../Assets/QRs/';
 const tempFolder = '../Assets/tmp/';
-
+ 
 const isDone = false;
 const overlayState = 0;
 const member = [];
