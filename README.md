@@ -4,7 +4,7 @@ A tool to sharpen image assets and overlay them with extra image assets(QRs,Logo
 
 ## Installation
 
-Run `npm install` for installtion.
+Run `npm install` for installation.
  
 
 ## Setup
