@@ -116,7 +116,7 @@ async resizeImage() {
    .then((output) => {
     member.push(i);
         console.log('overlayed for Twitter');
-       sharpenImage_(img, tempFolder + i + 'output.jpg', brandedOutputFolder_Twitter, 'final'+ i + '.jpg');
+       this.sharpenImage_(img, tempFolder + i + 'output.jpg', brandedOutputFolder_Twitter, 'final'+ i + '.jpg');
         }).
         catch((error) => {
          console.log(error);
@@ -132,7 +132,7 @@ async resizeImage() {
    .overlayWith(tempFolder + 'tmp.jpg', { gravity: sharp_2.gravity.south } ).jpeg().toFile(tempFolder + i + 'output.jpg')
    .then((output) => {
         console.log('overlayed for Facebook');
-        sharpenImage_(img, tempFolder + i + 'output.jpg', brandedOutputFolder_Facebook, 'final'+ i + '.jpg');
+        this.sharpenImage_(img, tempFolder + i + 'output.jpg', brandedOutputFolder_Facebook, 'final'+ i + '.jpg');
         }).
         catch((error) => {
          console.log(error);
@@ -147,7 +147,7 @@ async resizeImage() {
    .overlayWith(tempFolder + 'tmp.jpg', { gravity: sharp_3.gravity.south } ).jpeg().toFile(tempFolder + i + 'output.jpg')
    .then((output) => {
         console.log('overlayed for Instagram');
-        sharpenImage_(img, tempFolder + i + 'output.jpg', brandedOutputFolder_Instagram, 'final'+ i + '.jpg');
+        this.sharpenImage_(img, tempFolder + i + 'output.jpg', brandedOutputFolder_Instagram, 'final'+ i + '.jpg');
         }).
         catch((error) => {
          console.log(error);
@@ -163,7 +163,7 @@ async resizeImage() {
    .overlayWith(tempFolder + 'tmp.jpg', { gravity: sharp_0.gravity.centre } ).jpeg().toFile(tempFolder + i + 'output.jpg')
    .then((output) => {
         console.log('overlayed for Covers');
-        sharpenImage_(img,tempFolder + i + 'output.jpg', brandedOutputFolder_Covers, 'final'+ i + '.jpg');
+        this.sharpenImage_(img,tempFolder + i + 'output.jpg', brandedOutputFolder_Covers, 'final'+ i + '.jpg');
         }).
         catch((error) => {
          console.log(error);
