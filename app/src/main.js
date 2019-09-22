@@ -38,7 +38,7 @@ class ImageWorker  {
 async  sharpenSet() {
  fs.readdir(assetFolder, (err, files) => {
   files.forEach(file => {
-    sharpenImage(assetFolder + file, outputFolder,file);
+    this.sharpenImage(assetFolder + file, outputFolder,file);
   });
 });
 

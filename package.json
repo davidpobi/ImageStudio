@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node app/src/main.ts"
+    "start": "node app/src/main.js"
   },
   "private": true,
   "dependencies": {
